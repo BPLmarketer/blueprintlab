@@ -1,8 +1,7 @@
-$header-color: $bpl-blue
-$before-after-color: $bpl-blue
-$main-text-color: $black
-
-/* Banner
+/* Banner Variables */
+$banner-header-color: $bpl-blue
+$banner-before-after-color: $bpl-blue
+$banner-main-text-color: $black
 
 #banner
   display: -moz-flex
@@ -32,7 +31,7 @@ $main-text-color: $black
   p
     letter-spacing: 0.1em
     text-transform: uppercase
-    color: $main-text-color
+    color: $banner-main-text-color
     font-weight: bold
     font-size: 2vw
     line-height: 1.65em
@@ -44,6 +43,11 @@ $main-text-color: $black
   .actions
     grid-area: actions
 
+@media screen and (max-width: 1280px)
+  #banner .banner-grid
+    padding: 0 10%
+
+
 @media screen and (max-width: 736px)
   #banner
     height: auto
@@ -52,7 +56,7 @@ $main-text-color: $black
 
     .banner-grid
       display: block
-      padding-top: 5%
+      padding: 5% 15% 0
 
       br
         display: none

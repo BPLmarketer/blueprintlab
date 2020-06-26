@@ -1,8 +1,7 @@
-$transition-direction: 97.97deg
-$header-text-color: $black
-$text-color: $black
-    
-/* CTA
+/* CTA  Variables*/
+$cta-transition-direction: 97.97deg
+$cta-header-text-color: $black
+$cta-text-color: $black
 
 #cta
   height: 75vh
@@ -26,7 +25,7 @@ $text-color: $black
 
     h2
       text-transform: uppercase
-      color: $header-text-color
+      color: $cta-header-text-color
 
   .actions
     -moz-order: 2
@@ -35,21 +34,31 @@ $text-color: $black
     order: 2
     width: 100%
 
+@media screen and (max-width: 1280px)
+  #cta
+    height: 87vh
+
 @media screen and (max-width: 980px)
-  #cta .inner
-    display: block
-    text-align: center
+  #cta
+    height: 76vh
 
-    header
-      padding-right: 0
-      width: 100%
+    .inner
+      display: block
+      text-align: center
 
-    .actions
-      margin-left: auto
-      margin-right: auto
-      max-width: 20em
-      width: 100%
+      header
+        padding-right: 0
+        width: 100%
+
+      .actions
+        margin-left: auto
+        margin-right: auto
+        max-width: 20em
+        width: 100%
 
 @media screen and (max-width: 736px)
-  #cta .inner .actions
-    max-width: none
+  #cta
+    height: 75vh
+
+    .inner .actions
+      max-width: none
