@@ -6,7 +6,7 @@ image: ipadcustom2.jpg
 webp: ipadcustom2.webp
 ---
 
-**SEOUL, February 23, 2019** - Software developer BluePrintLAB, design studio JAW-Studio, and eyewear manufacturer L’AMY announced today a partnership to develop an app that allows consumers to create a bespoke pair of [award-winning](https://en.silmoparis.com/Silmo-d-Or-Awards/2018-SILMO-d-Or-Laureates) McLaren Ultimate Vision eyewear with the new iPad Pro. Customers can visit a McLaren eyewear dealer to easily select, customize, try on, and order eyewear in less than 5 minutes using an iPad, taking the hassle out of the buying process and increasing customer satisfaction. The app is expected to roll out to select opticians in late March 2019.
+**SEOUL, February 23, 2019** - Software developer BluePrintLAB, design studio [JAW-Studio](https://jaw-studio.fr/), and eyewear manufacturer [L’AMY](https://en.lamygroup.com/) announced today a partnership to develop an app that allows consumers to create a bespoke pair of [award-winning](https://en.silmoparis.com/Silmo-d-Or-Awards/2018-SILMO-d-Or-Laureates) McLaren Ultimate Vision eyewear with the new iPad Pro. Customers can visit a McLaren eyewear dealer to easily select, customize, try on, and order eyewear in less than 5 minutes using an iPad, taking the hassle out of the buying process and increasing customer satisfaction. The app is expected to roll out to select opticians in late March 2019.
 
 <picture>
     <source data-srcset="{{ "./assets/images/ipadscan.webp" | relative_url }}" type="image/webp">
@@ -35,6 +35,7 @@ True to the McLaren brand, this pioneering experience is centered around high-pe
 L’AMY will be demonstrating an early version of the app at the 2019 MIDO Eyewear Show in Milan February 23-25, 2019. Roll out of the app to select opticians will begin in late March of 2019.
 
 ***
+<br />
 BluePrintLAB utilizes 3D technologies, artificial intelligence (AI), and augmented reality to create innovative software. Specializing in realistic 3D model rendering and advanced AI algorithms, BluePrintLAB designs solutions to expand your view of the world. Headquartered in Seoul, BluePrintLAB is an international team from different backgrounds working together to improve user experience.
 
 Jinston Chung<br />
