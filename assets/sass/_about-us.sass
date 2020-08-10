@@ -1,7 +1,7 @@
 /* About Us  Variables*/
 $about-us-background-url-jpg: "../../assets/images/about-us.jpg"
 $about-us-background-url-webp: "../../assets/images/about-us.webp"
-$about-us-mobile-background-image: none
+$about-us-mobile-background-image: none !important
 
 @mixin background-specs
     background-position: center top
@@ -46,7 +46,7 @@ $about-us-mobile-background-image: none
 
     #about-us
         
-        background-image: url($about-us-mobile-background-image)
+        background-image: $about-us-mobile-background-image
         background-position: center top
         background-size: auto
 
