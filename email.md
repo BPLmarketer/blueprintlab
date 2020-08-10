@@ -6,20 +6,21 @@ order: 2
 ---
 
 <section class="email">
-	<form method="post" action="https://getsimpleform.com/messages?form_api_token=af201f2a2487815fb1d745822af038bc" onsubmit="return myFunction(sent)">
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='';}"></iframe>
+	<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScb8uKySfgZ2T_vISEgDH83Glq0-kiklD5ytUI46C4pfCj4Nw/formResponse?" target="hidden_iframe" onsubmit="myFunction(sent);">
 		<div class="row uniform" style="font-weight: bold">
 			<div class="6u 12u$(xsmall)">
 				Name<br />
-				<input type="text" name="name" id="body" value="" placeholder="Name" required />
+				<input type="text" name="entry.1924625708" id="name" value="" placeholder="Name" required />
 			</div>
 			<div class="6u$ 12u$(xsmall)">
 				Email<br />
-				<input type="email" name="email" id="body" value="" placeholder="Email" required />
+				<input type="email" name="entry.1064324287" id="email" value="" placeholder="Email" required />
 			</div>
 			<div class="12u$">
 				Subject<br />
 				<div class="select-wrapper">
-					<select name="subject" id="subject">
+					<select type="text" name="entry.1781999880" id="subject">
 						<option value="">- Subject -</option>
 						<option value="Contact Form - Business Inquiry">Business Inquiry</option>
 						<option value="Contact Form - Media Inquiry">Media Inquiry</option>
@@ -29,16 +30,15 @@ order: 2
 			</div>
 			<div class="12u$">
 				Message<br />
-				<textarea name="body" id="body" placeholder="Enter your message" rows="6"></textarea>
+				<textarea type="text" name="entry.1865264541" id="message" placeholder="Enter your message" rows="6"></textarea>
 			</div>
 			<div class="6u$ 12u$(small)">
-				<input type="hidden" name="human" value="no" />
-				<input type="checkbox" id="human" name="human" value="yes" />
+				<input type="checkbox" id="human" name="entry.2067130109" value="yes" />
 				<label for="human" style="font-weight: bold">I am not a robot</label>
 			</div>
 			<div class="12u$">
 				<ul class="actions">
-					<li><input type="submit" value="Send" class="special" /></li>
+					<li><input type="submit" value="Submit" class="special" /></li>
 					<div id="sent">Message sent! Thank you.</div>
 				</ul>
 			</div>
